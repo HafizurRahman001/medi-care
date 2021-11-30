@@ -1,0 +1,10 @@
+.doctor-img {
+  width: 28%;
+}
+
+/* media query for mobile device  */
+@media only screen and (max-width: 688px) {
+  .details-heading {
+    padding-top: 25px;
+  }
+}

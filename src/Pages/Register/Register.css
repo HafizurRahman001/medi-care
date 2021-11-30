@@ -1,0 +1,22 @@
+.automatic-signin-logo {
+  font-size: 40px;
+  padding: 10px 7px;
+  cursor: pointer;
+}
+.logo {
+  width: 140px;
+}
+.login-area,
+.register-area {
+  background: #223645;
+  padding: 50px 0px;
+  color: white;
+}
+
+/* media query for mobile device */
+@media only screen and (max-width: 688px) {
+  .login-section,
+  .register-section {
+    width: 100% !important;
+  }
+}

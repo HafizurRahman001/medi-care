@@ -1,0 +1,11 @@
+.popular-pages-section a {
+  color: black;
+}
+.popular-pages-section a:hover {
+  color: gray;
+}
+table tr td {
+  border-collapse: collapse;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 0;
+}
