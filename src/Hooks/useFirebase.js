@@ -100,7 +100,7 @@ const useFirebase = () => {
 
     // get data from local
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://boiling-caverns-62787.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
             .catch(error => {
@@ -127,7 +127,7 @@ const useFirebase = () => {
 
         const contactForm = { firstName, lastName, email, details };
 
-        axios.post('http://localhost:5000/contact', contactForm)
+        axios.post('https://boiling-caverns-62787.herokuapp.com/contact', contactForm)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Your information is successfully send. we will contact you as soon as possible');

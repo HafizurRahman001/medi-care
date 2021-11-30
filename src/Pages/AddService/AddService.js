@@ -28,7 +28,7 @@ const AddService = () => {
 
         const addService = { title, doctor, doctorImg, open, close, day, rating, desc, img };
 
-        axios.post('http://localhost:5000/services', addService)
+        axios.post('https://boiling-caverns-62787.herokuapp.com/services', addService)
             .then(res => {
                 console.log(res.data);
                 if (res.data.insertedId) {

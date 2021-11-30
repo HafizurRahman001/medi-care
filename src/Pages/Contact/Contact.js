@@ -21,7 +21,7 @@ const Contact = () => {
 
     //     const contactForm = { firstName, lastName, email, details };
 
-    //     axios.post('http://localhost:5000/contact', contactForm)
+    //     axios.post('https://boiling-caverns-62787.herokuapp.com/contact', contactForm)
     //         .then(res => {
     //             if (res.data.insertedId) {
     //                 alert('Your information is successfully send. we will contact you as soon as possible');
